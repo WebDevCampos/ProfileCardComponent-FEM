@@ -1,0 +1,37 @@
+@import url(./reset.css);
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --font: "Kumbh Sans", sans-serif;
+  --footer-link: hsl(228, 45%, 44%);
+}
+body {
+  font-family: var(--font);
+  background: url(../images/bg-pattern-top.svg) top left no-repeat,
+    url(../images/bg-pattern-bottom.svg) bottom right no-repeat,
+    var(--dark-cyan);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+main {
+  width: 36rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+img {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  left: calc(50% - 6rem);
+  top: 59%;
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--footer-link);
+}
