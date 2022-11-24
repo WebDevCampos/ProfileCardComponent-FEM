@@ -54,24 +54,36 @@ main {
 .card__top--user-info {
   text-align: center;
 }
+.card__top--user-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
 .card__top--user-info p {
   margin-top: 2rem;
 }
-h1 span,
+.card__top--user-info h1 span {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--dark-gray);
+  margin: 0 1rem;
+}
+
 .card__top--user-info p {
   color: var(--dark-gray);
   font-weight: 400;
+  font-size: 1.8rem;
 }
 .card__bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2rem;
   text-align: center;
   max-width: 100%;
-  border-top: 1px solid var(--very-dark-desaturated-blue);
+  border-top: 1px solid var(--dark-gray);
 }
+.card__bottom h2,
 .card__bottom h2 span {
-  font-size: 2.4rem;
+  font-size: 2rem;
   padding: 0;
   margin: 0 -0.5rem;
 }
